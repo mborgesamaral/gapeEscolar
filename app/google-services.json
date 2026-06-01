@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "16236520047",
+    "project_id": "agape-escolar",
+    "storage_bucket": "agape-escolar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16236520047:android:9f55be1813cd9a4fd5e39a",
+        "android_client_info": {
+          "package_name": "com.example.gapeescolar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD9ixvM4NsQG1qncWrTOuGubMvKCOzu74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
