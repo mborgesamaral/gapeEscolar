@@ -31,7 +31,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@OptIn(MaterialTheme::class)
 @Composable
 fun TelaLogin() {
     // Variável que guarda o texto do CPF digitado em tempo real
@@ -81,5 +80,13 @@ fun TelaLogin() {
         ) {
             Text("Entrar no Sistema")
         }
+    }
+}
+
+@androidx.compose.ui.tooling.preview.Preview(showBackground = true)
+@Composable
+fun TelaLoginPreview() {
+    ÁgapeEscolarTheme {
+        TelaLogin()
     }
 }
